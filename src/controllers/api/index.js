@@ -32,7 +32,14 @@ const addToFavourites = async (req, res) => {
   return res.status(500).json({ error: "Something went wrong" });
 };
 
+const getFavourites = (req, res) => {
+  const favourites = getDataFromFile("favourites");
+
+  return res.json({ data: favourites });
+};
+
 module.exports = {
   searchMovie,
   addToFavourites,
+  getFavourites,
 };
