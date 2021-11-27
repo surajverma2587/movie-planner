@@ -1,6 +1,7 @@
 const axios = require("axios");
+require("dotenv").config();
 
-const API_KEY = "trilogy";
+const API_KEY = process.env.API_KEY;
 
 const getMovieByName = async (movieName) => {
   const { data } = await axios.get(
