@@ -10,6 +10,15 @@ const getMovieByName = async (movieName) => {
   return data;
 };
 
+const getMovieById = async (id) => {
+  const { data } = await axios.get(
+    encodeURI(`https://www.omdbapi.com/?apikey=${API_KEY}&i=${id}`)
+  );
+
+  return data;
+};
+
 module.exports = {
   getMovieByName,
+  getMovieById,
 };
