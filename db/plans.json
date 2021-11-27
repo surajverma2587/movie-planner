@@ -1,0 +1,24 @@
+[
+  {
+    "movie": {
+      "id": "tt0114709",
+      "title": "Toy Story",
+      "runtime": "81 min",
+      "genre": "Animation, Adventure, Comedy",
+      "language": "English",
+      "year": "1995",
+      "rating": "8.3",
+      "rated": "G",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg"
+    },
+    "user": {
+      "title": "Miss",
+      "firstName": "Lily",
+      "lastName": "Alvarez",
+      "imageUrl": "https://randomuser.me/api/portraits/women/79.jpg",
+      "email": "nanna.kristensen@example.com",
+      "phone": "23623272"
+    },
+    "dateTime": ""
+  }
+]
