@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.movie-image {
+  position: relative;
+}
+
+.movie-runtime {
+  position: absolute;
+  top: 0;
+  padding: 0.2rem;
+  background-color: #ffe600;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.movie-rated {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.2rem;
+  background-color: #ffe600;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
